@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Nunito&display=swap");
+body {
+    font-family: "Nunito", sans-serif;
+    background-image: url("../src/components/img/tartan-wooden-background_1205-2118.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+    font-family: "Akaya Telivigala", cursive;
+    font-weight: 900;
+    font-size: 90px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.recipe-grid {
+    padding: 0 20px;
+    margin-top: 3em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.content {
+    padding-bottom: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.form-div input {
+    width: 500px;
+    margin: auto;
+    margin-top: 2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-div button {
+    margin-top: 1em;
+}
+
+.img-div {
+    margin-top: 165px;
+}
+
+.img-div {
+    height: 200px;
+}
+
+.img-div img {
+    width: 200px;
+}
+
+.geeks {
+    overflow: hidden;
+}
+
+.geeks:hover img {
+    transition: all 0.6s ease 0s;
+    transform: scale(1.5);
 }
